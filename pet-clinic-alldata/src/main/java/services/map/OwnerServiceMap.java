@@ -1,11 +1,12 @@
 package services.map;
 
 import model.Owner;
-import services.CrudService;
+import services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
 
     public Set<Owner> findAll() {
@@ -27,5 +28,9 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
 
     public Owner findbyId(Long id) {
         return super.findbyId(id);
+    }
+
+    public Owner findByLastName(String lastName) {
+        return null;
     }
 }
