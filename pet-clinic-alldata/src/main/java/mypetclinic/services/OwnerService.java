@@ -1,10 +1,11 @@
-package services;
+package mypetclinic.services;
 
-import model.Owner;
+import mypetclinic.model.Owner;
+
 
 public interface OwnerService extends CrudService<Owner, Long> {
 
     Owner findByLastName(String lastName);
 
-    
+
 }

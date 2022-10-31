@@ -1,4 +1,4 @@
-package model;
+package mypetclinic.model;
 
 import java.security.acl.Owner;
 import java.time.LocalDate;

@@ -1,4 +1,4 @@
-package model;
+package mypetclinic.model;
 
 import java.io.Serializable;
 

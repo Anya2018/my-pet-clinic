@@ -1,4 +1,4 @@
-package services;
+package mypetclinic.services;
 
 import java.util.Set;
 

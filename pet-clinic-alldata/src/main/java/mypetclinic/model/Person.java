@@ -1,4 +1,4 @@
-package model;
+package mypetclinic.model;
 
 public class Person extends BaseEntity {
 
