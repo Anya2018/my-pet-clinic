@@ -1,7 +1,7 @@
 package mypetclinic.repositories;
 
-import mypetclinic.model.Specialty;
+import mypetclinic.model.Speciality;
 import org.springframework.data.repository.CrudRepository;
 
-public interface SpecialtyRepository extends CrudRepository<Specialty, Long> {
+public interface SpecialtyRepository extends CrudRepository<Speciality, Long> {
 }

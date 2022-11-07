@@ -15,7 +15,6 @@ public class OwnerSDJpaService implements OwnerService {
 
     private final OwnerRepository ownerRepository;
 
-
     public OwnerSDJpaService(OwnerRepository ownerRepository) {
         this.ownerRepository = ownerRepository;
 
@@ -32,6 +31,13 @@ public class OwnerSDJpaService implements OwnerService {
     }
 
     public Owner save(Owner object) {
+        System.out.println("******************************");
+        System.out.println("******************************");
+        System.out.println("******************************");
+        System.out.println("******************************");
+        System.out.println("******************************");
+        System.out.println("******************************");
+        System.out.println("******************************");
         return ownerRepository.save(object);
     }
 
